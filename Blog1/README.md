@@ -1,2 +1,0 @@
-# programacion
-repositorio de trabajo
