@@ -21,13 +21,49 @@ body {
     grid-area: header;
     background-color: aqua;
 }
+.nav {
+    grid-area: nav;
+    background-color: antiquewhite;
+}
+.aside {
+    grid-area: aside;
+    background-color: blanchedalmond;
+}
+.article {
+    grid-area: article;
+    background-color: rgba(202, 159, 243, 0.858);
+}
+.footer {
+    grid-area: footer;
+    background-color: rgba(64, 144, 243, 0.845);
+}
+/*Aqui procedemos a desarrollar las mediciones para cada uno de nuestras etiquetas de la estructura.*/
 .grid-container {
     display: grid;
     gap: 10px;
-    grid-template-areas:
-    'header' 
-    'nav'
-    'aside'
-    'article'
-    'footer';
+    grid-template:
+    'header'  100px
+    'nav'     50px
+    'article' auto
+    'aside'   100px
+    'footer'  100px;
+}
+@media (min-width: 600px) {
+    .grid-container {
+    grid-template: 
+    'header header' 100px
+    'nav    nav'    50px
+    'aside  article' auto
+    'footer footer' 100px /
+    200px   auto;
+}
+}
+@media (min-width: 900px) {
+    .grid-container {
+        grid-template: 
+        'header header header'  100px
+        'nav  article   aside'  auto
+        'footer footer  footer' 100px /
+        200px   auto    200px;
+}
 }
