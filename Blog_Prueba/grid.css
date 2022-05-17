@@ -25,10 +25,14 @@ body {
 .nav {
     grid-area: nav;
     background-color:white;
+    text-align: center;
 }
 .aside {
     grid-area: aside;
     background-color: blanchedalmond;
+    text-align: left;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 20px;
 }
 .article {
     grid-area: article;
@@ -68,11 +72,6 @@ body {
         200px   auto    200px;
 }
 }
-.aside {
-    text-align: left;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    font-size: 20px;
-}
 #ball {
     position: relative;
     border-radius: 50%;
@@ -97,3 +96,9 @@ body {
     top: 0px;
     }
 }
+.imagen1 {
+    width: 50%;
+    height: auto;
+    margin-left: 10px;
+}
+
