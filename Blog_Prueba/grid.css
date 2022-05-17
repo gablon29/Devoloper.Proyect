@@ -1,0 +1,33 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+html {
+    height: 100%;
+}
+body {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 1.2rem;
+    min-height: 100%;
+}
+.grid-container > * {
+    box-shadow: -1px 1px 7px 0px rgb(0, 0, 0, 0.75);
+    border-radius: 4px;
+    padding: 10px;
+    text-align: center;
+}
+.header {
+    grid-area: header;
+    background-color: aqua;
+}
+.grid-container {
+    display: grid;
+    gap: 10px;
+    grid-template-areas:
+    'header' 
+    'nav'
+    'aside'
+    'article'
+    'footer';
+}
