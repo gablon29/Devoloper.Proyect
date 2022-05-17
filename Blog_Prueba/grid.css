@@ -10,6 +10,7 @@ body {
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     font-size: 1.2rem;
     min-height: 100%;
+    background-color: rgb(155, 248, 248);
 }
 .grid-container > * {
     box-shadow: -1px 1px 7px 0px rgb(0, 0, 0, 0.75);
@@ -19,11 +20,11 @@ body {
 }
 .header {
     grid-area: header;
-    background-color: aqua;
+    background-color: rgb(191, 248, 248);
 }
 .nav {
     grid-area: nav;
-    background-color: antiquewhite;
+    background-color:white;
 }
 .aside {
     grid-area: aside;
@@ -35,7 +36,7 @@ body {
 }
 .footer {
     grid-area: footer;
-    background-color: rgba(64, 144, 243, 0.845);
+    background-color: rgba(191, 248, 248);
 }
 /*Aqui procedemos a desarrollar las mediciones para cada uno de nuestras etiquetas de la estructura.*/
 .grid-container {
@@ -66,4 +67,33 @@ body {
         'footer footer  footer' 100px /
         200px   auto    200px;
 }
+}
+.aside {
+    text-align: left;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 20px;
+}
+#ball {
+    position: relative;
+    border-radius: 50%;
+    background: linear-gradient(
+    35deg,
+    );
+    animation-name: bounce;
+    animation-duration: 4s;
+    animation-iteration-count: 3;
+}
+
+@keyframes bounce{
+    0% {
+    top: 0px;
+    }
+    50% {
+    top: 120px;
+    width: 130px;
+    height: 75px;
+    }
+    80% {
+    top: 0px;
+    }
 }
