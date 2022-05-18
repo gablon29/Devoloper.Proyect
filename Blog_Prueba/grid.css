@@ -104,3 +104,23 @@ body {
 .textart {
     font-size: 20px;
 }
+.container {
+    height: 98vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.board {
+    max-width:987px;
+    width: 100%;
+    background-color: antiquewhite;
+    text-align: center;
+    border-radius: 8px;
+    padding: 4em 0;
+}
+
+.swiper {
+    width: 600px;
+    height: 300px;
+}
