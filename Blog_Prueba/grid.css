@@ -176,9 +176,4 @@ body {
     color: var(--color-text);
 }
 
-@media(min-width: 320px) {
-    .board{
-        width: auto;
-    }
-}
 
