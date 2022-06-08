@@ -1,0 +1,8 @@
+.imag {
+    width: 100%;
+    height: 700px;
+    display: block;
+    align-items:center;
+    justify-content:center;
+    padding: 4em;
+}
