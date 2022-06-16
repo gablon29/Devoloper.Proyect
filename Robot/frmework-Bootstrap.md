@@ -21,3 +21,4 @@ Son las distintas medidas para adaptar nuestra pagina a los distintos dispositvo
 *BootstrapCDN* Solo debes incluir al proyecto las <referencias de los archivos>
 *Paquete de dependencia* Instalar bootstrap en tu proyecto con la ayuda de administradores de paquetes como NPM, YARN, COMPOSER, etc.
 *Descarga de paquetes* Descargar los archivos fuentes y los importa en tu proyecto
+
